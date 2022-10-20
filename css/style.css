@@ -1,0 +1,297 @@
+
+/* font-family: 'Roboto', sans-serif; */
+*{
+  margin: 0;
+  padding: 0
+}
+header{
+
+  padding: 30px 0;
+}
+.header_wrapper{
+
+  width: 90%;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  margin: auto;
+
+  align-items: center;
+}
+.logo{
+  width: 20%;
+}
+.logo img{
+
+}
+.menu{
+  width: 50%;
+}
+.menu ul{
+
+  list-style: none;
+
+  justify-content: end;
+
+  display: flex;
+}
+.menu ul li{
+
+}
+.menu ul a{
+
+  text-decoration: none;
+
+  color: #97999b;
+
+  text-transform: uppercase;
+
+  margin-left: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+.brandstyle{
+    position: relative;
+}
+.brandstyle img{
+  position: relative;
+  width: 100%;
+}
+.banner{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.banner h1{
+  color: #ffff;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+.banner p{
+  text-transform: uppercase;
+  color: #FFFF;
+  text-align: center;
+  margin-top: 5%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+.banner button{
+  text-transform: capitalize;
+  padding: 15px 30px;
+  background-color: red;
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid #ffff;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.banner button i{
+ 
+}
+.design_section{
+
+  width: 80%;
+
+  margin: auto;
+
+  justify-content: space-between;
+  padding: 50px 0;
+  font-family: 'Roboto', sans-serif;
+
+}
+.design{
+  display: flex;
+  justify-content: space-between;
+}
+.web_design{
+   width: 31%;
+   text-align: center;
+}
+.web_design img{
+
+}
+.web_design h2{
+  text-transform: capitalize;
+  margin: 10px 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+.web_design p{
+  font-family: 'Roboto', sans-serif;
+  color: #97999b;
+}
+.design_section_heading{
+
+  text-align: center;
+  margin: 100px auto;
+  font-family: 'Roboto', sans-serif;
+}
+.design_section_heading h1{
+  
+  text-align: center;
+  
+  font-size: 30px;
+  
+  font-style: italic;
+  
+  color: #fb6e52;
+  
+  font-family: 'Roboto', sans-serif;
+  
+  font-weight: 400;
+ }
+ .main_service{
+  display: flex;
+  margin: 30px 0;
+  justify-content: space-between;
+ }
+.main_service_item{
+  width: 31%;
+ 
+  text-align: center;
+}
+.main_service_item img{
+  width: 100%;
+}
+.main_service_item h2{
+  margin: 10px 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+.main_service_item p{
+  font-family: 'Roboto', sans-serif;
+  color: #97999b;
+  text-transform: capitalize;
+}
+.blog_section{
+
+  width: 80%;
+
+  text-align: center;
+
+  margin: auto;
+  background-color: #f9f9f9;
+}
+.from_the{
+
+  padding: 50px 0;
+}
+.from_the h1{
+
+  text-transform: uppercase;
+
+  padding: 30px 0;
+
+  font-family: 'Roboto', sans-serif;
+
+  font-weight: 500;
+}
+.blog{
+
+  justify-content: space-between;
+
+  display: flex;
+}
+.blog_one{
+
+  width: 45%;
+}
+.blog_one img{
+  width: 100%;
+}
+.blog_one h2{
+
+  color: red;
+
+  padding: 30px 0;
+
+  font-family: 'Roboto', sans-serif;
+
+  font-weight: 500;
+}
+.blog_one p{
+
+  color: #97999b;
+
+  font-family: 'Roboto', sans-serif;
+
+ margin-bottom: 40px;
+}
+.blog_two{
+
+  width: 45%;
+}
+.blog_two img{
+  width: 100%;
+}
+.blog_two h2{
+
+  color: red;
+
+  font-family: 'Roboto', sans-serif;
+
+  padding: 30px 0;
+
+  font-weight: 500;
+}
+.blog_two p{
+  
+  color: #97999b;
+  
+  font-family: 'Roboto', sans-serif;
+  
+  margin-bottom: 40px;
+}
+footer{
+ background-color:#292c34;
+ padding: 30px 0;
+}
+.footer_wrapper{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.all_rights{
+ width: 30%;
+ display: flex;
+ justify-content: space-evenly;
+}
+.all_rights img{
+}
+.all_rights ul{
+  
+  padding: 10px;
+  
+  list-style: none;
+}
+.all_rights ul li{
+  
+}
+.all_rights ul li a{
+  text-decoration: none;
+  color: #797c82;
+  text-transform: capitalize;
+}
+.social_icon{
+  width: 15%;
+  padding: 10px;
+}
+.social_icon ul{
+
+  display: flex;
+
+  justify-content: space-between;
+  list-style: none;
+}
+.social_icon ul li{
+
+}
+.social_icon ul li a{
+  color: #ffff;
+  text-decoration: none;}
